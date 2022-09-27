@@ -34,7 +34,7 @@ const Contact = () => {
           <br />
           Reach out to me on
           <Link
-            href="https://www.instagram.com/codeforinterview/"
+            href="https://www.instagram.com/devashis_gupta/"
             color="inherit"
             target="_blank"
           >
@@ -42,7 +42,7 @@ const Contact = () => {
           </Link>
           or send me an Email
           <Link
-            href="mailto:codeforinterview@gmail.com?Subject=This is a subject"
+            href="mailto:devg619@gmail.com?Subject=This is a subject"
             target="_blank"
             color="inherit"
           >

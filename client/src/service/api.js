@@ -9,7 +9,7 @@ import {
     getType,
 } from '../utils/common-utils';
 
-const API_URL = '';
+const API_URL = 'https://blogkarodev.herokuapp.com/';
 
 const axiosInstance = axios.create({
     baseURL: API_URL,
