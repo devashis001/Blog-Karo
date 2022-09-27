@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  margin: 5em 0;
+  background: rgb(241, 251, 254);
+  background: linear-gradient(
+    93deg,
+    rgba(241, 251, 254, 1) 16%,
+    rgba(231, 249, 255, 1) 73%,
+    rgba(200, 233, 255, 0.975) 100%
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
