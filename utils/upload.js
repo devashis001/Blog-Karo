@@ -7,7 +7,7 @@ const username = process.env.DB_USERNAME;
 const password = process.env.DB_PASSWORD;
 
 const storage = new GridFsStorage({
-    url: `mongodb://${username}:${password}@ac-fttiinq-shard-00-00.1ub6hnf.mongodb.net:27017,ac-fttiinq-shard-00-01.1ub6hnf.mongodb.net:27017,ac-fttiinq-shard-00-02.1ub6hnf.mongodb.net:27017/?ssl=true&replicaSet=atlas-a67yih-shard-0&authSource=admin&retryWrites=true&w=majority`,
+    url: process.env.MONGODB_URI ||`mongodb://${username}:${password}@ac-fttiinq-shard-00-00.1ub6hnf.mongodb.net:27017,ac-fttiinq-shard-00-01.1ub6hnf.mongodb.net:27017,ac-fttiinq-shard-00-02.1ub6hnf.mongodb.net:27017/?ssl=true&replicaSet=atlas-a67yih-shard-0&authSource=admin&retryWrites=true&w=majority`,
     options: { useNewUrlParser: true },
     file: (request, file) => {
         const match = ['image/png', 'image/jpg'];

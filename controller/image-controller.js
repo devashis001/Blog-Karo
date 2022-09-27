@@ -1,7 +1,7 @@
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
 
-const url = '';
+const url = ' https://blogkarodev.herokuapp.com/';
 
 let gfs, gridfsBucket;
 const conn = mongoose.connection;
