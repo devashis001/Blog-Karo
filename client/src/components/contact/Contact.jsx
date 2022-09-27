@@ -29,7 +29,8 @@ const Contact = () => {
         <Typography variant="h3">Getting in touch is easy!</Typography>
         <Text variant="h5">
           Hello guys !! This website is created by Devashis Gupta. I am an
-          upcoming software engineer.
+          upcoming software engineer.I have completed my B.tech(CSE) from
+          VIT,Vellore.
           <br />
           <br />
           Reach out to me on
