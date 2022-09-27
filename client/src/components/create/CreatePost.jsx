@@ -99,7 +99,7 @@ const CreatePost = () => {
 
   return (
     <Container>
-      <Image src={url} alt="banner" />
+      <Image src={url} alt="post" />
 
       <StyledFormControl>
         <label htmlFor="fileInput">

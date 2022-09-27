@@ -30,7 +30,7 @@ const Contact = () => {
         <Text variant="h5">
           Hello guys !! This website is created by Devashis Gupta. I am an
           upcoming software engineer.I have completed my B.tech in Computer
-          science Engineering from VIT,Vellore.
+          Science Engineering from VIT,Vellore.
           <br />
           <br />
           Reach out to me on
